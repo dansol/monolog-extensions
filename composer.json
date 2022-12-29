@@ -1,0 +1,25 @@
+{
+    "name": "dansol/monolog-extensions",
+    "description": "Additional handlers, formatters and processors for use with Monolog",
+	"license": "MIT",
+	"keywords":          [
+        "monolog",
+		"handler",
+		"database handler",
+		"PDO handler"
+    ],
+	"authors": [
+		{
+            "name":     "Daniele Soligo"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MonologExtensions\\": "src/"
+        }
+    },
+    "require": {
+		"php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+		"monolog/monolog": "^2.8"
+	}
+}
